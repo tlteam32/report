@@ -310,7 +310,7 @@ def get_gsheet_client():
     return gspread.authorize(creds)
 
 
-DEFAULT_SHEET_URL = "https://docs.google.com/spreadsheets/d/1fYTibLa8riOyUPzPiu_579f5Ntu9_4B5yGLQJ8-LnA4/edit?usp=sharing"
+DEFAULT_SHEET_URL = "https://docs.google.com/spreadsheets/d/1Fii7gNAjQYsb1NTw5vyt47RjvTKi0WNg0yyQcBwjwLg/edit?usp=sharing"
 
 sheet_url = DEFAULT_SHEET_URL
 worksheet_name = "Import"
